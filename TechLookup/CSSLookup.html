@@ -32,12 +32,35 @@ h1 & p tags is width of the page but not the others which is due to default
  eg. block
  1. <p></p>, <h1></h1> etc.
  2. on its own it doesn't take width element as it takes the whole row
+ 3. It can take width properties and act accordingly but still it blocks the
+ whole line
 
  eg. inline
  1. <span></span>, <img>, <a ></a>
+ 2. Inline elements doesn't take any width as it takes as much space an
+ element is required
 
- eg. Hybrid of block & inline
+
+ Note: Display property can given to an element and can be made as block or
+inline
+
+PS: 1. Block element takes the whole line so it takes width property
+but even if it is short it wont allow other elements in the line
+ 2. Inline elements accommodates as much elements (like <span>) so it
+   doesn't take width property   
+
+
+ eg. Hybrid of block & inline (inline-block)
  1. Display element can be modified to any of the above elements
  2. In case of inline-block, width takes effect and everything falls inline
 
- PS: Note on section 5.43
+ PS: Note on section 5.43 on udemy (angela)
+
+ positioning (section 5.44)
+
+ 1. static (default)
+ 2. Relative
+ 3. Absolute
+ 4. fixed
+
+ Note: Image merging can use position relative to merge 2 images
